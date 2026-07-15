@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Monica Zakaria | Digital Marketing Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=Space+Mono&display=swap" rel="stylesheet">
+
+    <!-- npm packages (installed via `npm install`) -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navbarSupportedContent">
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar navbar-expand-lg fixed-top start-0 end-0 z-3">
+      <div class="container py-2">
+        <a class="navbar-brand" href="#Home">Monica<span class="dot"></span></a>
+        <div class="d-flex align-items-center gap-2 order-lg-3">
+          <button class="theme-toggle" id="themeToggleBtn" aria-label="Toggle light / dark mode">
+            <i class="fa fa-sun" id="themeIcon"></i>
+          </button>
+          <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+            <i class="fa-solid fa-bars fs-3"></i>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0 gap-4 justify-content-center align-items-center">
+            <li class="nav-item"><a class="nav-link active" href="#Home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Experience">Experience</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Portfolio">Portfolio</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ================= HOME ================= -->
+    <header id="Home">
+      <div class="container p-top">
+        <div class="row align-items-center">
+          <div class="col-md-7">
+            <div class="ps-lg-5 hero-content">
+              <p class="hero-hello mb-3">Hello, I am</p>
+              <h1 class="hero-name text-grad">Monica Zakaria</h1>
+              <h2 class="hero-role">
+                <span id="typewriter"></span><span class="cursor">&nbsp;</span>
+              </h2>
+              <p class="hero-desc mt-3">
+                Digital Marketing graduate combining a design background with content planning,
+                social media management, and Meta &amp; Google Ads fundamentals — bilingual,
+                detail-oriented, and focused on audience-first content.
+              </p>
+              <div class="d-flex gap-3 mt-4 flex-wrap">
+                <a href="#Portfolio" class="btn btn-grad py-2 ps-4 pe-4">View my work</a>
+                <a href="#Contact" class="btn py-2 ps-4 pe-4" style="border:1px solid var(--border);">Get in touch</a>
+              </div>
+              <div class="hero-socials d-flex gap-2 mt-4">
+                <a href="mailto:monica_bekhet22@gmail.com" aria-label="Email"><i class="fa fa-envelope"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5">
+            <div class="ring-wrap">
+              <div class="ring-inner">
+                <!-- Replace this file with your own photo (keep the same path) -->
+                <img src="./assets/profile.jpeg" alt="Monica Zakaria"
+                     onerror="this.onerror=null;this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMDAgMzAwIj48cmVjdCB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgZmlsbD0iIzFjMTgyNiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTIlIiBmb250LWZhbWlseT0iSW50ZXIsc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMCIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QWRkIHlvdXIgcGhvdG88L3RleHQ+PC9zdmc+'">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="section-bg py-5" id="About">
+      <div class="container py-5">
+        <div class="section-title">
+          <span class="eyebrow">About</span>
+          <h3>Who I Am</h3>
+          <div class="rule"></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="about-container p-4 p-lg-5">
+              <div class="row g-4">
+                <div class="col-lg-7">
+                  <h4 class="text-uppercase">Digital Marketing Specialist</h4>
+                  <p>
+                    Digital Marketing graduate of ITI's Intensive Training Program with hands-on project
+                    experience in content planning, social media management, and campaign basics for Meta
+                    and Google Ads. Combines a background in visual design (BA, Decor / Interior Design)
+                    with strong copywriting and SEO fundamentals to create audience-focused content.
+                    Bilingual, detail-oriented, and eager to grow within a fast-paced marketing team.
+                  </p>
+                  <a href="https://drive.google.com/drive/folders/1xykt6tv1QVlKmbV93rCiY5f67NXQLPoi?usp=drive_link"
+                     target="_blank" rel="noopener" class="btn btn-grad py-2 ps-4 pe-4 mt-2">
+                    View Projects Portfolio (Drive)
+                  </a>
+                </div>
+                <div class="col-lg-5">
+                  <div class="contact-line"><i class="fa fa-location-dot"></i><span>Sidi Bishr, Alexandria, Egypt (Open to Relocation)</span></div>
+                  <div class="contact-line"><i class="fa fa-envelope"></i><a href="mailto:monica_bekhet22@gmail.com">monica_bekhet22@gmail.com</a></div>
+                  <div class="contact-line"><i class="fa fa-phone"></i><a href="tel:+201278123719">+20 127 812 3719</a></div>
+                  <div class="contact-line"><i class="fa-brands fa-linkedin"></i><span>Monica Zakaria</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE ================= -->
+    <section class="py-5" id="Experience">
+      <div class="container py-5">
+        <div class="section-title">
+          <span class="eyebrow">Resume</span>
+          <h3>Experience &amp; Education</h3>
+          <div class="rule"></div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+            <div class="timeline">
+
+              <div class="timeline-item">
+                <span class="date">May 2025 – May 2026</span>
+                <h4>Legal Translator</h4>
+                <span class="org">Bishara Law Office</span>
+                <ul>
+                  <li>Translated legal documents and correspondence between Arabic and English, ensuring accuracy and consistency of specialized terminology.</li>
+                  <li>Managed tight deadlines while maintaining strict attention to detail and client confidentiality.</li>
+                  <li>Strengthened written communication and research skills, later applied to content writing and copywriting.</li>
+                </ul>
+              </div>
+
+              <div class="timeline-item">
+                <span class="date">Jan 2026 – May 2026</span>
+                <h4>Digital Marketing Track — Intensive Training Program (ITP)</h4>
+                <span class="org">Information Technology Institute (ITI)</span>
+                <ul>
+                  <li>Completed an intensive, project-based program covering content planning, social media management &amp; analytics, marketing strategy fundamentals, audience research, competitor analysis, and A/B testing basics.</li>
+                  <li>Built practical campaign and content projects applying Meta Ads and Google Ads fundamentals.</li>
+                </ul>
+              </div>
+
+              <div class="timeline-item">
+                <span class="date">Oct 2020 – Jun 2025</span>
+                <h4>BA, Decor Department, Faculty of Fine Arts</h4>
+                <span class="org">Alexandria University — Grade: Very Good</span>
+              </div>
+
+              <div class="timeline-item">
+                <span class="date">Courses</span>
+                <h4>Mahara Tech Certificates</h4>
+                <a href="https://drive.google.com/drive/folders/1LmBvdu1TbB6IS" target="_blank" rel="noopener" class="text-grad fw-bold">
+                  View certificates <i class="fa fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PORTFOLIO / PROJECTS ================= -->
+    <section class="py-5 section-bg" id="Portfolio">
+      <div class="container py-5">
+        <div class="section-title">
+          <span class="eyebrow">Selected Work</span>
+          <h3>Portfolio</h3>
+          <div class="rule"></div>
+        </div>
+
+        <div class="filter-nav" id="portfolioFilters"></div>
+        <div class="row g-4" id="portfolioGrid"></div>
+      </div>
+    </section>
+
+    <!-- lightbox modal -->
+    <div class="modal fade lightbox-modal" id="lightboxModal" tabindex="-1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content">
+          <button type="button" class="btn-close btn-close-white ms-auto mb-2" data-bs-dismiss="modal" aria-label="Close"></button>
+          <img id="lightboxImg" src="" alt="Preview">
+        </div>
+      </div>
+    </div>
+
+    <!-- ================= SKILLS ================= -->
+    <section class="py-5" id="Skills">
+      <div class="container py-5">
+        <div class="section-title">
+          <span class="eyebrow">Toolbox</span>
+          <h3>Skills</h3>
+          <div class="rule"></div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-9">
+
+            <p class="skill-group-title">Marketing &amp; Content</p>
+            <div class="mb-4">
+              <span class="skill-pill"><i class="fa fa-pen-nib"></i> Content Writing &amp; Copywriting</span>
+              <span class="skill-pill"><i class="fa fa-calendar-days"></i> Content Planning</span>
+              <span class="skill-pill"><i class="fa-brands fa-square-instagram"></i> Social Media Management &amp; Analytics</span>
+              <span class="skill-pill"><i class="fa fa-bullseye"></i> Marketing Strategy Basics</span>
+              <span class="skill-pill"><i class="fa fa-users"></i> Audience Research &amp; Customer Persona</span>
+              <span class="skill-pill"><i class="fa fa-magnifying-glass-chart"></i> Competitor Analysis</span>
+              <span class="skill-pill"><i class="fa-brands fa-facebook"></i> Meta Ads</span>
+              <span class="skill-pill"><i class="fa-brands fa-google"></i> Google Ads</span>
+              <span class="skill-pill"><i class="fa fa-flask"></i> A/B Testing Basics</span>
+            </div>
+
+            <p class="skill-group-title">Tools &amp; Technical</p>
+            <div>
+              <span class="skill-pill"><i class="fa-brands fa-adobe"></i> Adobe Photoshop</span>
+              <span class="skill-pill"><i class="fa-brands fa-adobe"></i> Adobe Illustrator</span>
+              <span class="skill-pill"><i class="fa fa-magnifying-glass"></i> SEO Fundamentals</span>
+              <span class="skill-pill"><i class="fa fa-robot"></i> AI-Assisted Content Tools</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section class="py-5 section-bg" id="Contact">
+      <div class="container py-5">
+        <div class="section-title">
+          <span class="eyebrow">Say Hello</span>
+          <h3>Contact Me</h3>
+          <div class="rule"></div>
+        </div>
+
+        <div class="row justify-content-center mb-5">
+          <div class="col-md-3 text-center">
+            <div class="contact-icon"><i class="fa fa-location-arrow"></i></div>
+            <h4 class="text-grad fs-6 text-uppercase">Address</h4>
+            <p>Alexandria, Egypt</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="contact-icon"><i class="fa fa-envelope"></i></div>
+            <h4 class="text-grad fs-6 text-uppercase">Email</h4>
+            <p>monica_bekhet22@gmail.com</p>
+          </div>
+          <div class="col-md-3 text-center">
+            <div class="contact-icon"><i class="fa fa-phone"></i></div>
+            <h4 class="text-grad fs-6 text-uppercase">Phone</h4>
+            <p>+20 127 812 3719</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <form class="row g-3">
+              <div class="col-md-6"><input type="text" class="px-3 py-3 w-100" placeholder="Name"></div>
+              <div class="col-md-6"><input type="email" class="px-3 py-3 w-100" placeholder="Email"></div>
+              <div class="col-md-12"><textarea rows="4" class="w-100 px-3 py-3" placeholder="Message"></textarea></div>
+              <div class="col-md-12"><button type="button" class="btn btn-grad py-2 ps-5 pe-5">Submit</button></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      &copy; <span id="year"></span> Monica Zakaria — Digital Marketing Portfolio
+    </footer>
+
+    <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
